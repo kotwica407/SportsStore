@@ -33,10 +33,10 @@ namespace SportsStore.Infrastructure
         {
             IUrlHelper urlHelper = urlHelperFactory.GetUrlHelper(ViewContext);
             TagBuilder result = new TagBuilder("div");
-            for(int i = 1; i < PageModel.TotalPages; i++)
+            for(int i = 1; i <= PageModel.TotalPages; i++)
             {
                 TagBuilder tag = new TagBuilder("a");
-                tag.Attributes["href"] = urlHelper.Action(PageAction, new { productPage = 1 });
+                tag.Attributes["href"] = urlHelper.Action(PageAction, new { productPage = i });
                 tag.InnerHtml.Append(i.ToString());
                 result.InnerHtml.AppendHtml(tag);
             }

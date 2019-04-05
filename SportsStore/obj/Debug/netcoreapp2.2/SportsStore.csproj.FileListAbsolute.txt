@@ -34,3 +34,4 @@ C:\Users\Mateusz Adamowicz\source\repos\SportsStore\SportsStore\obj\Debug\netcor
 C:\Users\Mateusz Adamowicz\source\repos\SportsStore\SportsStore\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_AdminLayout.g.cshtml.cs
 C:\Users\Mateusz Adamowicz\source\repos\SportsStore\SportsStore\obj\Debug\netcoreapp2.2\Razor\Views\Admin\Index.g.cshtml.cs
 C:\Users\Mateusz Adamowicz\source\repos\SportsStore\SportsStore\obj\Debug\netcoreapp2.2\Razor\Views\Admin\Edit.g.cshtml.cs
+C:\Users\Mateusz Adamowicz\source\repos\SportsStore\SportsStore\obj\Debug\netcoreapp2.2\Razor\Views\Account\Login.g.cshtml.cs
